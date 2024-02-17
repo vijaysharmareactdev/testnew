@@ -15,7 +15,9 @@ export const showToast = (
         type,
         position,
         text1: message,
-        visibilityTime: 2000,
+        visibilityTime: 3000,
+        loyal: true,
+        name: "vijay",
     });
 };
 
@@ -29,7 +31,8 @@ export const showToastNew = (
 ) => {
     Toast.show({
         type,
-        staging: true
+        name: "asdas",
+        address: "some address"
     });
 };
 
@@ -43,6 +46,5 @@ export const showToastNew2 = (
     Toast.show({
         type,
         staging: false
-        name: "asdas"
     });
 };
