@@ -43,5 +43,6 @@ export const showToastNew2 = (
     Toast.show({
         type,
         staging: false
+        name: "asdas"
     });
 };
