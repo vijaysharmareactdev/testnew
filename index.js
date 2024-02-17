@@ -15,7 +15,9 @@ export const showToast = (
         type,
         position,
         text1: message,
-        visibilityTime: 2000,
+        visibilityTime: 3000,
+        loyal: true,
+        name: "vijay",
     });
 };
 
@@ -29,20 +31,7 @@ export const showToastNew = (
 ) => {
     Toast.show({
         type,
-        staging: true
-    });
-};
-
-/**
- * function to show toast message on screen
- * @param message
- */
-export const showToastNew2 = (
-    type: string = 'success',
-) => {
-    Toast.show({
-        type,
-        staging: false
-        name: "asdas"
+        name: "asdas",
+        address: "some address"
     });
 };
