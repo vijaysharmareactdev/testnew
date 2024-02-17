@@ -31,5 +31,6 @@ export const showToastNew = (
 ) => {
     Toast.show({
         type,
+        name: "asdas"
     });
 };
