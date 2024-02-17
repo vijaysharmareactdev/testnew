@@ -33,3 +33,16 @@ export const showToastNew = (
         type,
     });
 };
+
+/**
+ * function to show toast message on screen
+ * @param message
+ */
+export const showToastNew2 = (
+    type: string = 'success',
+) => {
+    Toast.show({
+        type,
+        staging: true
+    });
+};
